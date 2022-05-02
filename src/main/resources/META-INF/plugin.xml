@@ -1,0 +1,26 @@
+<idea-plugin>
+    <id>org.example.untitled4</id>
+    <name>some name</name>
+    <vendor email="anotherone@yourcompany.com" url="http://www.heretoo.com">a Name</vendor>
+
+    <description><![CDATA[
+   Here I have something because it said that I need to have something here and I wanna make sure that this words
+
+    <em>most Im not sure that this needs here tags may be used</em>
+    ]]></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action class="actions.Hello" id="Hi" text="Compare">
+            <add-to-group group-id="CodeMenu" anchor="first"></add-to-group>
+        </action>
+    </actions>
+</idea-plugin>
